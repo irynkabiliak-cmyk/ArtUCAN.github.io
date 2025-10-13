@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Iryna Ucan — UCAN Art</title>
+  <style>
+    body{margin:0;font-family:-apple-system,system-ui,Segoe UI,Roboto,Arial,sans-serif;line-height:1.6;background:#fff;color:#111}
+    .wrap{max-width:1100px;margin:0 auto;padding:0 16px}
+    header{padding:40px 0 12px;text-align:center}
+    h1{margin:0;font-size:clamp(28px,4vw,44px)}
+    nav{margin:12px 0 24px}
+    nav a{margin:0 10px;text-decoration:none;color:#111}
+    .hero{padding:28px 0;text-align:center;background:#faf7f2;border:1px solid #eee;border-radius:14px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}
+    figure{margin:0;border:1px solid #eee;border-radius:10px;overflow:hidden}
+    figure img{width:100%;display:block}
+    figcaption{padding:8px 10px;font-size:14px;color:#444}
+    .btn{display:inline-block;margin-top:8px;padding:10px 14px;border:1px solid #111;border-radius:10px;text-decoration:none;color:#111}
+    footer{padding:24px 0 40px;text-align:center;color:#666}
+    .muted{color:#666;font-size:14px}
+    @media (prefers-color-scheme:dark){
+      body{background:#0b0b0c;color:#eaeaea}
+      .btn,nav a{color:#eaeaea;border-color:#eaeaea}
+      figure{border-color:#222}
+      .muted{color:#aaa}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Iryna Ucan — Ukrainian Coded Art Needlework (UCAN)</h1>
+      <nav>
+        <a href="#gallery">Галерея</a>
+        <a href="#ucan">Про UCAN</a>
+        <a href="#buy">Придбати роботу</a>
+        <a href="#contact">Контакти</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <p>Вишивання фарбою: мікроквадрати кодують слова й орнамент. Кожна картина — символ і оберіг.</p>
+      <a class="btn" href="#gallery">Дивитись роботи</a>
+    </section>
+
+    <main>
+      <section id="gallery">
+        <h2>Галерея</h2>
+        <p class="muted">Додай свої зображення пізніше (папка <code>images/</code>). Поки що — заповнювачі.</p>
+        <div class="grid">
+          <figure>
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='800' height='600'%3E%3Crect width='100%25' height='100%25' fill='%23eaeaea'/%3E%3Ctext x='50%25' y='50%25' fill='%23666' font-size='24' text-anchor='middle'%3EТут буде картина 1%3C/text%3E%3C/svg%3E" alt="Робота UCAN 1">
+            <figcaption>«Плейсхолдер 1»</figcaption>
+          </figure>
+          <figure>
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='800' height='600'%3E%3Crect width='100%25' height='100%25' fill='%23eaeaea'/%3E%3Ctext x='50%25' y='50%25' fill='%23666' font-size='24' text-anchor='middle'%3EТут буде картина 2%3C/text%3E%3C/svg%3E" alt="Робота UCAN 2">
+            <figcaption>«Плейсхолдер 2»</figcaption>
+          </figure>
+          <figure>
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='800' height='600'%3E%3Crect width='100%25' height='100%25' fill='%23eaeaea'/%3E%3Ctext x='50%25' y='50%25' fill='%23666' font-size='24' text-anchor='middle'%3EТут буде картина 3%3C/text%3E%3C/svg%3E" alt="Робота UCAN 3">
+            <figcaption>«Плейсхолдер 3»</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section id="ucan">
+        <h2>Про метод UCAN</h2>
+        <p><strong>UCAN — Ukrainian Coded Art Needlework</strong>. Моя авторська техніка «вишивання фарбою», де мікроквадрати утворюють орнамент і закодовують слова сили, пам’яті та любові.</p>
+      </section>
+
+      <section id="buy">
+        <h2>Придбати роботу</h2>
+        <p>Покупка на сайті вимкнена. Для замовлень напишіть мені будь-яким зручним способом:</p>
+        <p>
+          <a class="btn" href="mailto:iryna.ucan.art@gmail.com?subject=Комісія%20UCAN">Написати на email</a>
+          <a class="btn" href="https://instagram.com/iryna_ucan" target="_blank" rel="noopener">Instagram</a>
+        </p>
+        <p class="muted">За бажанням додамо посилання на Etsy/PayPal.</p>
+      </section>
+
+      <section id="contact">
+        <h2>Контакти</h2>
+        <p>Email: <a href="mailto:iryna.ucan.art@gmail.com">iryna.ucan.art@gmail.com</a></p>
+        <p>Instagram: <a href="https://instagram.com/iryna_ucan" target="_blank" rel="noopener">@iryna_ucan</a></p>
+      </section>
+    </main>
+
+    <footer>
+      <p>© Iryna Ucan • UCAN Art</p>
+    </footer>
+  </div>
+</body>
+</html>
